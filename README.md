@@ -10,6 +10,7 @@ The return format is the same as the one you sent in. The only exception is the
 # Functions
 
 Name | Parameters | Details | Description
+-----|------------|---------|------------
 `color_red` | *string* color [, *int* set] | color: Hex color or rgb(a) [, set: number 0-255] | If the second parameter isn't set we return the channel value of the color (0-255), if the second parameter is set we instead set that channel value to the color and return the new color.
 `color_blue` | *string* color [, *int* set] | color: Hex color or rgb(a) [, set: number 0-255] | If the second parameter isn't set we return the channel value of the color (0-255), if the second parameter is set we instead set that channel value to the color and return the new color.
 `color_green` | *string* color [, *int* set] | color: Hex color or rgb(a) [, set: number 0-255] | If the second parameter isn't set we return the channel value of the color (0-255), if the second parameter is set we instead set that channel value to the color and return the new color.

@@ -5,7 +5,7 @@ class Plugin extends \System\Classes\PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'Color Tools',
+            'name' => 'Twig Color Tools',
             'description' => 'A collection of Twig functions for working with colors',
             'author' => 'Niklas Rosenqvist',
             'icon' => 'icon-leaf',
