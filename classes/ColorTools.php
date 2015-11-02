@@ -2,7 +2,7 @@
 
 class ColorTools {
 
-    const COLORPERCENT = 255/100;
+    const COLORPERCENT = 2.55;
 
     public static function lighten($color, $percent)
     {
