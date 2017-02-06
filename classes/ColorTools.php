@@ -222,7 +222,7 @@ class ColorTools {
                 break;
             case "rgb":
                 $colorStr = (self::hasAlpha($color)) ? 'rgba(' : 'rgb(';
-                $colorStr .= '('.$color[0].','.$color[1].','.$color[2];
+                $colorStr .= $color[0].','.$color[1].','.$color[2];
                 $colorStr .= (self::hasAlpha($color)) ? ','.number_format($color[3], 2, '.', ',').')' : ')';
                 $color = $colorStr;
                 break;
