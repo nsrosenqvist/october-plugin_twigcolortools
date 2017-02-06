@@ -1,2 +1,4 @@
 1.0.0:
     First version
+1.0.1:
+    Fixed an issue with double opening brackets on rgb and rgba color codes
