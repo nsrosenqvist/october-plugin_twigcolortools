@@ -185,7 +185,7 @@ class ColorTools {
             $color = explode(',', $color);
             $count = count($color);
 
-            for ($i = 0; $i <= $count; $i++)
+            for ($i = 0; $i < $count; $i++)
             {
                 $color[$i] = ($i == 3) ? (float) $color[$i] : (int) $color[$i];
             }
